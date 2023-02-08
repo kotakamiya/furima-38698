@@ -27,7 +27,7 @@ RSpec.describe Item, type: :model do
       end
 
       it '説明文が空では登録できない' do
-        @item.explain = ''
+        @item.explain = ""
         @item.valid?
         expect(@item.errors.full_messages).to include("Explain can't be blank")
       end
