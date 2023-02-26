@@ -62,10 +62,13 @@ group :production do
 end
 
 gem 'devise'
-gem 'rspec-rails', '~> 4.0.0'
+gem 'rspec-rails'
 gem 'factory_bot_rails'
 gem 'faker'
 gem 'pry-rails'
 gem 'mini_magick'
 gem 'image_processing', '~> 1.2'
 gem 'active_hash'
+gem 'payjp'
+gem 'dotenv-rails'
+gem 'dotenv'
